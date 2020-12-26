@@ -48,9 +48,7 @@ jobs:
             Kind regards,
             
             Dalje-et
-          # Read file contents as body:
-          #body: file://README.md
-          # comma separated to mail
+          # send the mail to myself for the sake of this demo
           to: ${{secrets.MAIL_USERNAME}}
           from: Dalje-et
           content_type: text/html
